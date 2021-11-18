@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Guía5</string>
+    <string name="login">Login</string>
+    <string name="calculadora">Calculadora</string>
+    <string name="orientaci_n_de_pantalla">ORIENTACIÓN DE PANTALLA</string>
+    <string name="registro">Registro</string>
+    <string name="conversaciones">Conversaciones</string>
+</resources>
