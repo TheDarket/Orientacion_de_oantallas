@@ -10,12 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Guía5">
         <activity
+            android:name=".datos"
+            android:exported="false" />
+        <activity
             android:name=".conversaciones"
             android:exported="true" />
         <activity
             android:name=".calculadora"
             android:exported="true"
-            android:screenOrientation="sensor"/>
+            android:screenOrientation="sensor" />
         <activity
             android:name=".DisplayMessageActivity"
             android:exported="true" />

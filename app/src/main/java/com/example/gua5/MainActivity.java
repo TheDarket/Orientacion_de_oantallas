@@ -14,10 +14,11 @@ import android.widget.ImageView;
 import android.widget.TextView;
 
 public class MainActivity extends AppCompatActivity {
-    public static final String EXTRA_MESSAGE = "com.example.gua5.login";
+    public static final String EXTRA_MESSAGE = "com.example.gua5.datos";
     private Button btnLogin;
     private Button btnConversacion;
     private Button btnCalculadora;
+    private Button btnDatos;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -50,5 +51,14 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        btnDatos = findViewById(R.id.idDatos);
+        btnDatos.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(MainActivity.this, datos.class);
+                startActivity(intent);
+            }
+        });
+
     }
 }
